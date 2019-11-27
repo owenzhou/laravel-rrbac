@@ -1,6 +1,6 @@
 <?php
 
-namespace App\rbac;
+namespace App\Rbac;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -15,6 +15,6 @@ class Role extends Model
     ];
 
     public function permission(){
-    	return $this->hasMany('App\rbac\Permission', 'role_id');
+    	return $this->hasMany('App\Rbac\Permission', 'role_id');
     }
 }

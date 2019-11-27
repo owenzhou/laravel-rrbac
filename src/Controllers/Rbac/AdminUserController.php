@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\rbac\User;
-use App\rbac\UserRole;
+use App\Rbac\User;
+use App\Rbac\UserRole;
 use Validator;
 use Illuminate\Validation\Rule;
 use DB;

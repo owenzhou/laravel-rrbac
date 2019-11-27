@@ -1,6 +1,6 @@
 <?php
 
-namespace App\rbac;
+namespace App\Rbac;
 
 use Illuminate\Database\Eloquent\Model;
 

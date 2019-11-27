@@ -3,8 +3,8 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use App\rbac\Permission;
-use App\rbac\UserRole;
+use App\Rbac\Permission;
+use App\Rbac\UserRole;
 use Auth;
 
 class VerifyPermission
