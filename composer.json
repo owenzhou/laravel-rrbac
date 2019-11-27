@@ -1,0 +1,24 @@
+{
+    "name": "owenzhou/laravel-rrbac",
+    "description": "laravel role base access control",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "owenzhou",
+            "email": "15118085523@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+	"psr-4": {
+	    "Owenzhou\\LaravelRbac\\": "src/"
+	}
+    },
+    "extra": {
+	"laravel": {
+	    "providers":[
+		"Owenzhou\\LaravelRbac\\RbacProvider"
+	    ]
+	}
+    }
+}
